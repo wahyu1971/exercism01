@@ -15,6 +15,7 @@ git push -u origin master
 exercism configure --key=3502b6afa9d14b508607840443468324
 
 exercism fetch python
+exercism fetch go
 
 go test
 go test -bench .
