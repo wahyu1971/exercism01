@@ -9,3 +9,14 @@ echo "# exercism01" >> README.md
 git remote add origin https://github.com/wahyu1971/exercism01.git
 git commit -m "first commit"
 git push -u origin master
+
+----
+	
+exercism configure --key=3502b6afa9d14b508607840443468324
+
+exercism fetch python
+
+go test
+go test -bench .
+
+exercism submit hello_world.go 
