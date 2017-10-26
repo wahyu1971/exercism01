@@ -16,3 +16,4 @@
 
 # vim temporary file 
 .*~
+.*.swp

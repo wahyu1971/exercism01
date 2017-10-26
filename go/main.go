@@ -2,14 +2,29 @@ package main
 
 import (
 	//"exercism01/go/pangram"
-	"exercism01/go/house"
+	//"exercism01/go/house"
+	//"exercism01/go/pascal"
+	"exercism01/go/series"
 	"fmt"
 )
 
 func main() {
+	//series.All(2, "01234")
+	//series.All(1, "01234")
+	fmt.Println(series.All(2, "98273463"))
+}
+
+/*
+func main() {
+	fmt.Println(pascal.Triangle(8))
+}
+*/
+/*
+func main() {
 	//fmt.Print(house.Verse(1))
 	fmt.Print(house.Song())
 }
+*/
 
 /*
 func main() {
