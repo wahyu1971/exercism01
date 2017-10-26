@@ -2,9 +2,16 @@ package main
 
 import (
 	//"exercism01/go/pangram"
+	"exercism01/go/house"
 	"fmt"
 )
 
+func main() {
+	//fmt.Print(house.Verse(1))
+	fmt.Print(house.Song())
+}
+
+/*
 func main() {
 	aa := make(map[byte]bool)
 	aa['A'] = true
@@ -22,6 +29,7 @@ func main() {
 		fmt.Println(v, i)
 	}
 }
+*/
 
 /*
 import (
