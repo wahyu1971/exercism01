@@ -1,8 +1,6 @@
 package queenattack
 
-import (
-	"errors"
-)
+import "errors"
 
 const testVersion = 2
 
